@@ -3,124 +3,61 @@
     "classes": {
       "CSSDSEndFrameViewInfo": {
         "fields": {
-          "m_ViewName": 8,
-          "m_nViewId": 0
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_EndFrame": {
         "fields": {
-          "m_Views": 0
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_LayerBase": {
         "fields": {
-          "m_LayerName": 32,
-          "m_ViewName": 16,
-          "m_displayText": 40,
-          "m_nLayerId": 24,
-          "m_viewId": 0
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_PostLayer": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "scenesystem"
       },
       "CSSDSMsg_PreLayer": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_ViewRender": {
         "fields": {
-          "m_ViewName": 16,
-          "m_viewId": 0
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_ViewTarget": {
         "fields": {
-          "m_Name": 0,
-          "m_TextureId": 8,
-          "m_nDepth": 36,
-          "m_nFormat": 44,
-          "m_nHeight": 20,
-          "m_nMultisampleNumSamples": 40,
-          "m_nNumMipLevels": 32,
-          "m_nRequestedHeight": 28,
-          "m_nRequestedWidth": 24,
-          "m_nWidth": 16
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_ViewTargetList": {
         "fields": {
-          "m_Targets": 24,
-          "m_ViewName": 16,
-          "m_viewId": 0
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SceneViewId_t": {
         "fields": {
-          "m_nFrameCount": 8,
-          "m_nViewId": 0
+          "": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       }
     },
@@ -143,6 +80,7 @@
           "kDisableShadows_All": 1,
           "kDisableShadows_Baked": 2,
           "kDisableShadows_None": 0,
+          "kDisableShadows_ReallyNone": 4,
           "kDisableShadows_Realtime": 3
         },
         "type": "uint8"
@@ -156,6 +94,19 @@
           "SCENEOBJECT_VIS_NONE": 0,
           "SCENEOBJECT_VIS_OBJECT": 1,
           "SCENEOBJECT_VIS_TEXTURE_SIZE": 3
+        },
+        "type": "uint32"
+      },
+      "ESceneViewDebugOverlaysListenerDataType_t": {
+        "alignment": 4,
+        "members": {
+          "k_ESceneViewDebugOverlaysListenerDataType_BoxAngles": 3,
+          "k_ESceneViewDebugOverlaysListenerDataType_Capsule": 2,
+          "k_ESceneViewDebugOverlaysListenerDataType_Line": 4,
+          "k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles": 5,
+          "k_ESceneViewDebugOverlaysListenerDataType_Sphere": 1,
+          "k_ESceneViewDebugOverlaysListenerDataType_Text3D": 6,
+          "k_ESceneViewDebugOverlaysListenerDataType_Unknown": 0
         },
         "type": "uint32"
       },
